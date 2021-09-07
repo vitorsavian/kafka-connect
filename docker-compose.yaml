@@ -11,7 +11,6 @@ services:
     environment:
       - MYSQL_DATABASE=fullcycle
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_USER=root
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
 
